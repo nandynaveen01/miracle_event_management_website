@@ -1,0 +1,18 @@
+Work in dev:
+
+git checkout dev
+# make changes, then
+git add .
+git commit -m "Your update"
+git push
+
+
+Vercel will even give you a preview link for dev.
+
+When changes are tested → merge into main:
+
+git checkout main
+git pull origin main   # keep main up to date
+git merge dev
+git push origin main
+
